@@ -23,7 +23,7 @@ These instructions will get you a copy of the project up and running on your loc
 #### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/bookreader.git
+git clone https://github.com/XSheldon/bookreader_iphone_app.git
 cd bookreader
 ```
 
