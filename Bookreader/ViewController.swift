@@ -136,7 +136,7 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate {
             return
         }
         
-        let apiKey = "FjYtGwlwOF7KtFiyi8QDH7yuzPGnRXak9iucBKXV"
+        let apiKey = ####
         let appId = "clubo1myt0001lb08u2onsheh"
         let url = URL(string: "https://api.codewords.ai/execute-sync")!
         var request = URLRequest(url: url)
@@ -211,7 +211,6 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate {
         }
         
         let apiKey = ProcessInfo.processInfo.environment["GOOGLE_API_KEY"] ?? ""
-        print("API KEY HERE 888888888 : "+apiKey)
         let url = URL(string: "https://vision.googleapis.com/v1/images:annotate?key=\(apiKey)")!
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
